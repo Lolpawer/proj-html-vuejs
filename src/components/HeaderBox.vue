@@ -1,11 +1,14 @@
 <template>
     <header>
-        <div class="company-info">
+        <!-- Header where all the info and socials are -->
+        <div class="company-info silver-text">
             <div class="container flex">
+                <!-- Opening hours -->
                 <div class="company-hours">
                     <i class="fas fa-clock"></i>
                     Open Hours: {{days}} - {{hours}}
                 </div>
+                <!-- Phone number, email and socials -->
                 <div class="contact-information flex">
                     <div>
                         <i class="fas fa-phone"></i>
@@ -39,7 +42,6 @@ export default {
     .company-info {
         width: 100%;
         background-color: #21333e;
-        color: #c0c3c7;
         font-size: 15px;
         padding: 15px 0;
 
