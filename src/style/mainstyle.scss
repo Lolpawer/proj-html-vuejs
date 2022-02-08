@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+//font family for the whole page
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -17,10 +18,15 @@ body {
     justify-content: space-between;
 }
 
+//pointer for what are supposed to be
 .pointer {
     cursor: pointer;
 }
 
 .silver-text {
     color: #c0c3c7;
+}
+
+.teal-text {
+    color: #058283;
 }

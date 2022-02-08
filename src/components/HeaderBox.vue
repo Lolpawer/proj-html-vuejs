@@ -1,28 +1,29 @@
 <template>
-    <header>
-        <!-- Header where all the info and socials are -->
-        <div class="company-info silver-text">
-            <div class="container flex">
-                <!-- Opening hours -->
-                <div class="company-hours">
-                    <i class="fas fa-clock"></i>
-                    Open Hours: {{days}} - {{hours}}
-                </div>
-                <!-- Phone number, email and socials -->
-                <div class="contact-information flex">
-                    <div>
-                        <i class="fas fa-phone"></i>
-                        {{number}}
-                    </div>
-                    <div>
-                        <i class="fas fa-envelope"></i>
-                        {{email}}
-                    </div>
-                    <i class="fab fa-facebook-f pointer"></i>
-                    <i class="fab fa-twitter pointer"></i>
-                    <i class="fab fa-linkedin-in pointer"></i>
-                </div>
+    <!-- Header where all the info and socials are -->
+    <header class="silver-text">
+        <div class="container flex">
+
+            <!-- Opening hours -->
+            <div>
+                <i class="fas fa-clock"></i>
+                Open Hours: {{days}} - {{hours}}
             </div>
+
+            <!-- Phone number, email and socials -->
+            <div class="contact-information flex">
+                <div>
+                    <i class="fas fa-phone"></i>
+                    {{number}}
+                </div>
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    {{email}}
+                </div>
+                <i class="fab fa-facebook-f pointer"></i>
+                <i class="fab fa-twitter pointer"></i>
+                <i class="fab fa-linkedin-in pointer"></i>
+            </div>
+
         </div>
     </header>
 </template>
@@ -39,7 +40,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .company-info {
+    header {
         width: 100%;
         background-color: #21333e;
         font-size: 15px;
@@ -49,5 +50,4 @@ export default {
             width: 30%;
         }
     }
-       
 </style>
