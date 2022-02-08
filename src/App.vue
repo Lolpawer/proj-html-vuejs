@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <header-box />
+    <header-box 
+    :days="companyDays"
+    :hours="companyHours"
+    :number="companyNumber"
+    :email="companyEmail" />
     <main-box />
     <footer-box />
   </div>
@@ -17,6 +21,14 @@ export default {
     HeaderBox,
     MainBox,
     FooterBox
+  },
+  data() {
+    return {
+      companyDays: "Mon - Sat",
+      companyHours: "9:00 - 18:00",
+      companyNumber: "+1 (305) 1234-5678",
+      companyEmail: "hello@example.com"
+    }
   }
 }
 </script>
