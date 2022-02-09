@@ -9,10 +9,10 @@
                 <div class="leaders-big-text section-title-font darkslategray-text">
                     Industry Leaders.
                 </div>
-                <div class="leaders-text">
+                <div class="leaders-text lightslategray-text">
                     With all of this expertise and capability comes an unrivaled commitment to customer service.
                 </div>
-                <div class="leaders-text">
+                <div class="leaders-text lightslategray-text">
                     We will work hard to understand your needs in order to develop a productive, long-term partnership.
                 </div>
                 <button-green 
@@ -58,7 +58,6 @@ export default {
 
                 .leaders-text {
                     font-size: 23px;
-                    color: #829397;
                     padding: 20px 0;
                 }
 

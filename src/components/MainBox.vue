@@ -10,6 +10,8 @@
         <leaders-main
         :button="button" />
 
+        <pricing-main />
+
     </main>
 </template>
 
@@ -17,12 +19,14 @@
 import DeliveryMain from './DeliveryMain.vue'
 import JumboMain from './JumboMain.vue'
 import LeadersMain from './LeadersMain.vue'
+import PricingMain from './PricingMain.vue'
 
 export default {
   components: {
     JumboMain,
     DeliveryMain,
-    LeadersMain
+    LeadersMain,
+    PricingMain
   },
   props: {
       nav: Array,
