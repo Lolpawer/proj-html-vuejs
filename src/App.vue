@@ -1,12 +1,17 @@
 <template>
   <div id="app">
+
     <header-box 
     :days="companyDays"
     :hours="companyHours"
     :number="companyNumber"
     :email="companyEmail" />
-    <main-box />
+
+    <main-box 
+    :nav="nav" />
+
     <footer-box />
+
   </div>
 </template>
 
@@ -27,7 +32,21 @@ export default {
       companyDays: "Mon - Sat",
       companyHours: "9:00 - 18:00",
       companyNumber: "+1 (305) 1234-5678",
-      companyEmail: "hello@example.com"
+      companyEmail: "hello@example.com",
+      nav: [
+        {
+          text: "HOME"
+        },
+        {
+          text: "SERVICES"
+        },
+        {
+          text: "ABOUT"
+        },
+        {
+          text: "PRICING"
+        }
+      ]
     }
   }
 }

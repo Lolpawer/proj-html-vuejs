@@ -19,9 +19,9 @@
                     <i class="fas fa-envelope"></i>
                     {{email}}
                 </div>
-                <i class="fab fa-facebook-f pointer"></i>
-                <i class="fab fa-twitter pointer"></i>
-                <i class="fab fa-linkedin-in pointer"></i>
+                <div><i class="fab fa-facebook-f pointer"></i></div>
+                <div><i class="fab fa-twitter pointer"></i></div>
+                <div><i class="fab fa-linkedin-in pointer"></i></div>
             </div>
 
         </div>
@@ -47,7 +47,8 @@ export default {
         padding: 15px 0;
 
         .contact-information {
-            width: 30%;
+            width: 40%;
         }
+
     }
 </style>
