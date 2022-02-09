@@ -2,7 +2,8 @@
     <main>
 
         <jumbo-main
-        :nav="nav" />
+        :nav="nav"
+        :button="button" />
 
     </main>
 </template>
@@ -15,7 +16,8 @@ export default {
       JumboMain
   },
   props: {
-      nav: Array
+      nav: Array,
+      button: Object
   }
 }
 </script>

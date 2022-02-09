@@ -1,10 +1,15 @@
 <template>
     <div class="linen-text pointer">
-        GET IN TOUCH
+        {{text}}
     </div>
 </template>
 
 <script>
+export default {
+    props: {
+        text: String
+    }
+}
 </script>
 
 <style lang="scss" scoped>

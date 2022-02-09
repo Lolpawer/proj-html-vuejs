@@ -19,7 +19,10 @@
                     {{object.text}}
                     </li>
                     <li><i class="far fa-user pointer"></i></li>
-                    <li><get-in-touch /></li>
+                    <li>
+                        <button-green
+                        :text="button.contact"/>
+                    </li>
                 </ul>
             </nav>
 
@@ -29,13 +32,15 @@
 </template>
 
 <script>
-import GetInTouch from './GetInTouch.vue'
+import ButtonGreen from './ButtonGreen.vue'
+
 export default {
     components: {
-        GetInTouch
+        ButtonGreen
     },
     props: {
-        nav: Array
+        nav: Array,
+        button: Object
     }
 }
 </script>

@@ -6,18 +6,18 @@
             <!-- Opening hours -->
             <div>
                 <i class="fas fa-clock"></i>
-                Open Hours: {{days}} - {{hours}}
+                Open Hours: {{companyInfo.days}} - {{companyInfo.hours}}
             </div>
 
             <!-- Phone number, email and socials -->
             <div class="contact-information flex">
                 <div>
                     <i class="fas fa-phone"></i>
-                    {{number}}
+                    {{companyInfo.phoneNumber}}
                 </div>
                 <div>
                     <i class="fas fa-envelope"></i>
-                    {{email}}
+                    {{companyInfo.email}}
                 </div>
                 <div><i class="fab fa-facebook-f pointer"></i></div>
                 <div><i class="fab fa-twitter pointer"></i></div>
@@ -31,10 +31,7 @@
 <script>
 export default {
     props: {
-        days: String,
-        hours: String,
-        number: String,
-        email: String
+        companyInfo: Object
     }
 }
 </script>

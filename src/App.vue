@@ -2,13 +2,11 @@
   <div id="app">
 
     <header-box 
-    :days="companyDays"
-    :hours="companyHours"
-    :number="companyNumber"
-    :email="companyEmail" />
+    :companyInfo="companyInformation" />
 
     <main-box 
-    :nav="nav" />
+    :nav="nav"
+    :button="buttonContent" />
 
     <footer-box />
 
@@ -29,10 +27,12 @@ export default {
   },
   data() {
     return {
-      companyDays: "Mon - Sat",
-      companyHours: "9:00 - 18:00",
-      companyNumber: "+1 (305) 1234-5678",
-      companyEmail: "hello@example.com",
+      companyInformation: {
+        days: "Mon - Sat",
+        hours: "9:00 - 18:00",
+        phoneNumber: "+1 (305) 1234-5678",
+        email: "hello@example.com",
+      },
       nav: [
         {
           text: "HOME"
@@ -46,7 +46,13 @@ export default {
         {
           text: "PRICING"
         }
-      ]
+      ],
+      buttonContent: {
+        contact: "GET IN TOUCH",
+        information: "READ MORE",
+        send: "SEND",
+        location: "VIEW MAP"
+      }
     }
   }
 }
