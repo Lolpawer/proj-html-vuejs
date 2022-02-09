@@ -5,15 +5,19 @@
         :nav="nav"
         :button="button" />
 
+        <delivery-main />
+
     </main>
 </template>
 
 <script>
+import DeliveryMain from './DeliveryMain.vue'
 import JumboMain from './JumboMain.vue'
 
 export default {
   components: {
-      JumboMain
+      JumboMain,
+    DeliveryMain
   },
   props: {
       nav: Array,

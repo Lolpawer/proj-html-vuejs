@@ -103,14 +103,14 @@ export default {
             .jumbotron-text {
                 font-weight: bolder;
                 font-size: 70px;
-                z-index: 2;
+                z-index: 1;
+                line-height: 130%;
 
                 .green-backbox {
-                    z-index: 1;
                     background-color: #cbe4de;
                     width: 255px;
                     height: 38px;
-                    margin-top: -55px;
+                    margin-top: -45px;
                     border-radius: 5px;
                 }
             }
