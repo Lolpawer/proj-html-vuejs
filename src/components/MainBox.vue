@@ -7,17 +7,22 @@
 
         <delivery-main />
 
+        <leaders-main
+        :button="button" />
+
     </main>
 </template>
 
 <script>
 import DeliveryMain from './DeliveryMain.vue'
 import JumboMain from './JumboMain.vue'
+import LeadersMain from './LeadersMain.vue'
 
 export default {
   components: {
-      JumboMain,
-    DeliveryMain
+    JumboMain,
+    DeliveryMain,
+    LeadersMain
   },
   props: {
       nav: Array,
