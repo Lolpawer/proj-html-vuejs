@@ -20,7 +20,14 @@ body {
 
 .flex {
     display: flex;
+}
+
+.space-between {
     justify-content: space-between;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 //pointer for what are supposed to be
@@ -38,6 +45,11 @@ body {
     color: #058283;
 }
 
+//used in the little titles in the main content
+.lightseagreen-text {
+    color: #00a6a6;
+}
+
 //this is the color used in most of the app, instead of plain black
 .darkslategray-text {
     color: #21333e;
@@ -46,4 +58,8 @@ body {
 //used in buttons, white but not totally, also same color as jumbotron background
 .linen-text {
     color: #efeee9;
+}
+
+.section-title-font {
+    font-family: 'Poppins', sans-serif;
 }

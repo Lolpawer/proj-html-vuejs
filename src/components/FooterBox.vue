@@ -1,7 +1,7 @@
 <template>
     <!-- Footer with piracy policy and "powered by" sections -->
     <footer class="silver-text">
-        <div class="container flex">
+        <div class="container flex space-between">
 
             <!-- Piracy policy -->
             <div>

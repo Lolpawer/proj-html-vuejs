@@ -1,7 +1,7 @@
 <template>
     <!-- Header where all the info and socials are -->
     <header class="silver-text">
-        <div class="container flex">
+        <div class="container flex space-between">
 
             <!-- Opening hours -->
             <div>
@@ -10,7 +10,7 @@
             </div>
 
             <!-- Phone number, email and socials -->
-            <div class="contact-information flex">
+            <div class="contact-information flex space-between">
                 <div>
                     <i class="fas fa-phone"></i>
                     {{companyInfo.phoneNumber}}
