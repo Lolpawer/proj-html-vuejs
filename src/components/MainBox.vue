@@ -12,10 +12,14 @@
 
         <pricing-main />
 
+        <choose-us-main 
+        :button="button" />
+
     </main>
 </template>
 
 <script>
+import ChooseUsMain from './ChooseUsMain.vue'
 import DeliveryMain from './DeliveryMain.vue'
 import JumboMain from './JumboMain.vue'
 import LeadersMain from './LeadersMain.vue'
@@ -26,11 +30,12 @@ export default {
     JumboMain,
     DeliveryMain,
     LeadersMain,
-    PricingMain
+    PricingMain,
+    ChooseUsMain   
   },
   props: {
-      nav: Array,
-      button: Object
+    nav: Array,
+    button: Object
   }
 }
 </script>
