@@ -1,15 +1,21 @@
 <template>
     <div class="choose-box">
         <div class="container">
+
+            <!-- Title -->
             <div class="relative">
                 <div class="section-title-font white-text choose-title absolute">
                     Why choose us?
                 </div>
+                <!-- The green background behind "us?" -->
                 <div class="green-backbox absolute"></div>
             </div>
+
+            <!-- Text -->
             <div class="lightslategray-text choose-text">
                 We work intensively in search of ideals that can add up in the lives of our customers. This is what motivates us to improve every day.
             </div>
+            
             <button-green 
             class="button"
             :text="button.contact"/>

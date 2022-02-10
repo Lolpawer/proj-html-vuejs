@@ -46,6 +46,5 @@ export default {
         .contact-information {
             width: 40%;
         }
-
     }
 </style>

@@ -1,14 +1,17 @@
 <template>
   <div id="app">
 
+    <!-- Header -->
     <header-box 
     :companyInfo="companyInformation" />
 
+    <!-- Main Content -->
     <main-box 
     :nav="nav"
     :button="buttonContent"
     :companyInfo="companyInformation" />
 
+    <!-- Footer -->
     <footer-box />
 
   </div>

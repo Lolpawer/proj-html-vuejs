@@ -1,3 +1,11 @@
+<!-- MULTI PURPOSE BUTTON WITH GREEN BACKGROUND AND WHITE TEXT -->
+<!-- THE BUTTON CONTENT IS DYNAMIC, IN APP LOOK FOR "buttonContent" ARRAY IN DATA -->
+<!-- THE MAIN CONTENTS ARE THIS: contact: "GET IN TOUCH",
+                                 information: "READ MORE",
+                                 send: "SEND",
+                                 location: "VIEW MAP" -->
+<!-- BIND ONE OF THESE WHEN CREATING A BUTTON WITH :text="button.(text you want displayed)"-->
+
 <template>
     <div class="linen-text pointer">
         {{text}}

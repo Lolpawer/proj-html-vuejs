@@ -9,6 +9,15 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+//special font for the large text
+.section-title-font {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
 .container {
     width: 1200px;
 
@@ -38,18 +47,21 @@ body {
     flex-wrap: wrap;
 }
 
-.bold {
-    font-weight: bold;
-}
-
 //pointer for what are supposed to be
 .pointer {
     cursor: pointer;
 }
 
+//------------- TEXT COLOR -------------
+
 //grey-ish color used in header and footer
 .silver-text {
     color: #c0c3c7;
+}
+
+//light gray text used in main
+.lightslategray-text {
+    color: #829397;
 }
 
 //signature green-ish color used in various parts
@@ -76,10 +88,4 @@ body {
     color: #fff;
 }
 
-.lightslategray-text {
-    color: #829397;
-}
-
-.section-title-font {
-    font-family: 'Poppins', sans-serif;
-}
+//--------------------------------------

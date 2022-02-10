@@ -2,6 +2,7 @@
     <div class="delivery-container">
         <div class="container flex wrap">
 
+            <!-- Section title -->
             <div class="delivery-box-title margin-right">
                 <p class="teal-text bold">WHAT WE DO</p>
                 <p class="section-title-font bold white-text delivery-title">We offer a full range of delivery methods.</p>
@@ -9,6 +10,7 @@
                 <div class="green-backbox"></div>
             </div>
 
+            <!-- Big delivery box, double the width of 2 smaller boxes (margin included) -->
             <div class="delivery-box-big delivery-background">
                 <div class="flex space-between teal-text">
                     <i class="fas fa-shipping-fast"></i>
@@ -18,6 +20,7 @@
                 <p class="silver-text delivery-text">Special fast delivery service that guarantees the arrival of the object on the same day as postage. Included monitoring via mobile app.</p>
             </div>
 
+            <!-- The three smaller delivery boxes -->
             <div class="delivery-box-small delivery-background margin-right">
                 <div class="flex space-between teal-text">
                     <i class="fas fa-motorcycle"></i>

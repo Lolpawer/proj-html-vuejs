@@ -1,23 +1,29 @@
 <template>
     <main>
 
-        <jumbo-main
-        :nav="nav"
-        :button="button" />
+      <!-- Jumbotron + Navbar -->
+      <jumbo-main
+      :nav="nav"
+      :button="button" />
 
-        <delivery-main />
+      <!-- First section: delivery options -->
+      <delivery-main />
 
-        <leaders-main
-        :button="button" />
+      <!-- Second section: industry leaders --> 
+      <leaders-main
+      :button="button" />
 
-        <pricing-main />
+      <!-- Third section: pricing options -->
+      <pricing-main />
 
-        <choose-us-main 
-        :button="button" />
+      <!-- Fourth section: why choose us? -->
+      <choose-us-main 
+      :button="button" />
 
-        <form-main 
-        :button="button"
-        :info="companyInfo" />
+      <!-- Fifth section: message form + company contact information -->
+      <form-main 
+      :button="button"
+      :info="companyInfo" />
 
     </main>
 </template>
@@ -48,5 +54,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 </style>

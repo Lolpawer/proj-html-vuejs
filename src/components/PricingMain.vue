@@ -1,11 +1,16 @@
 <template>
     <div class="pricing-box">
         <div class="container">
+
+            <!-- Title and description of section -->
             <div class="lightseagreen-text bold">MONTHLY PLANS</div>
             <div class="darkslategray-text section-title-font title">Pricing Table</div>
             <div class="lightslategray-text subtext">We can help you deliver and execute your future, wherever you compete, using the latest technologies, from strategy development to implementation.</div>
+            
+            <!-- Pricing tables -->
             <div class="flex space-between pricing">
 
+                <!-- Leftmost pricing table -->
                 <div class="pricing-table">
                     <i class="fas fa-rocket teal-text icon"></i>
                     <p class="darkslategray-text bold pricing-title icon">Standard</p>
@@ -38,6 +43,7 @@
                     </ul>
                 </div>
 
+                <!-- Middle pricing table, taller than the other two and with the "most popular" flair -->
                 <div class="pricing-table pricing-middle">
                     <div class="most-popular">Most Popular</div>
                     <i class="fas fa-briefcase teal-text icon"></i>
@@ -71,6 +77,7 @@
                     </ul>
                 </div>
 
+                <!-- Rightmost pricing table -->
                 <div class="pricing-table">
                     <i class="fas fa-gem teal-text icon"></i>
                     <p class="darkslategray-text bold pricing-title icon">Ultimate</p>

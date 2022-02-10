@@ -2,6 +2,7 @@
     <div class="box">
         <div class="container flex">
 
+            <!-- Left part of the section, with title and form -->
             <div class="form-box">
                 <div class="lightseagreen-text bold">
                     SEND A MESSAGE
@@ -15,6 +16,8 @@
                 <div class="lightslategray-text">
                     We will respond to your message as soon as possible.
                 </div>
+                
+                <!-- Form -->
                 <form> 
                     <input type="text" placeholder="Name">
                     <input type="email" placeholder="Email">
@@ -30,6 +33,7 @@
                 :text="button.send"/>
             </div>
 
+            <!-- Right part of the section, with company contact information -->
             <div class="company-box">
                 <h1 class="darkslategray-text">Example Inc.</h1>
                 <p class="lightslategray-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>

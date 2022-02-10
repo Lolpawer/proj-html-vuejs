@@ -2,6 +2,8 @@
     
     <div class="leaders-box">
         <div class="container leaders-container flex">
+
+            <!-- The text, which is situated on the right side of the section -->
             <div class="leaders-content">
                 <div class="lightseagreen-text bold">
                     WHO WE ARE
@@ -67,8 +69,5 @@ export default {
             }
         }
     }
-        
-    
-    
 
 </style>
