@@ -16,7 +16,6 @@ export default {
     div {
         height: 46px;
         width: 160px;
-        background-color: #efeee9;
         border: 1px solid #00a6a6;
         font-weight: bold;
         border-radius: 5px;

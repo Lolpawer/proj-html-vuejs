@@ -6,7 +6,8 @@
 
     <main-box 
     :nav="nav"
-    :button="buttonContent" />
+    :button="buttonContent"
+    :companyInfo="companyInformation" />
 
     <footer-box />
 
@@ -32,6 +33,7 @@ export default {
         hours: "9:00 - 18:00",
         phoneNumber: "+1 (305) 1234-5678",
         email: "hello@example.com",
+        location: "Main Avenue, 987"
       },
       nav: [
         {

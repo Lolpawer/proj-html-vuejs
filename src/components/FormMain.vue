@@ -31,6 +31,23 @@
             </div>
 
             <div class="company-box">
+                <h1 class="darkslategray-text">Example Inc.</h1>
+                <p class="lightslategray-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="lightslategray-text">Praesent diam lacus, dapibus sed imperdiet consectetur.</p>
+                <div class="information teal-text">
+                    <i class="fas fa-phone"></i>
+                    {{info.phoneNumber}}
+                </div>
+                <div class="information teal-text">
+                    <i class="fas fa-envelope"></i>
+                    {{info.email}}
+                </div>
+                <div class="information teal-text"> 
+                    <i class="fas fa-map-marker-alt"></i>
+                    {{info.phoneNumber}}
+                </div>
+                <button-white 
+                :text="button.location"/>
             </div>
 
         </div>  
@@ -39,13 +56,16 @@
 
 <script>
 import ButtonGreen from './ButtonGreen.vue';
+import ButtonWhite from './ButtonWhite.vue';
 
 export default {
     components: {
-        ButtonGreen
+        ButtonGreen,
+        ButtonWhite
     },
     props: {
-        button: Object
+        button: Object,
+        info: Object
     }
 }
 </script>
@@ -104,12 +124,33 @@ export default {
 
                 textarea {
                     width: 95%;
+                    resize: none;
                 }
             }
         }
 
         .company-box {
             width: 30%;
+
+            p {
+                padding: 15px 0;
+            }
+
+            .information {
+                font-size: 20px;
+                padding: 20px 0;
+
+                i {
+                    width: 50px;
+                    height: 50px;
+                    background-color: #daeced;
+                    font-size: 30px;
+                    padding: 10px 10px;
+                    border-radius: 50%;
+                    text-align: center;
+                    margin-right: 10px;
+                }
+            }
         }
     }
 

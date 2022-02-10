@@ -16,7 +16,8 @@
         :button="button" />
 
         <form-main 
-        :button="button" />
+        :button="button"
+        :info="companyInfo" />
 
     </main>
 </template>
@@ -40,7 +41,8 @@ export default {
   },
   props: {
     nav: Array,
-    button: Object
+    button: Object,
+    companyInfo: Array
   }
 }
 </script>
