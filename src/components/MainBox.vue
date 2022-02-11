@@ -48,7 +48,7 @@ export default {
   props: {
     nav: Array,
     button: Object,
-    companyInfo: Array
+    companyInfo: Object
   }
 }
 </script>
